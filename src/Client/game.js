@@ -249,14 +249,11 @@ function gameLoop() {
 }
 
 function startGame() {
-  /*
   const serverip = prompt(
     "Please enter the server ip and port (E.g. 127.0.0.1:8080)"
   );
-  
+
   API.server = serverip;
-  */
-  API.server = "192.168.1.25:54321";
   API.initialize();
   //user = new User();
   User.initialize().then(() => {
