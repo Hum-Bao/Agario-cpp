@@ -1,2 +1,3 @@
 # Agario-cpp
-C++ Agario.
+
+Agario clone in C++ and JavaScript
